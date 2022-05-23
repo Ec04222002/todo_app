@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(note_app LANGUAGES CXX)
+project(todo_app LANGUAGES CXX)
 
-set(BINARY_NAME "note_app")
+set(BINARY_NAME "todo_app")
 
 cmake_policy(SET CMP0063 NEW)
 
