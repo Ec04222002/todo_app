@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 
 class Utils {
   static void showSnackBar(BuildContext context, String text) =>
-      Scaffold.of(context)
+      ScaffoldMessenger.of(context)
         ..removeCurrentSnackBar()
         ..showSnackBar(SnackBar(content: Text(text)));
 }
